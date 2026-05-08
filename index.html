@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Portfolio | Chamika Nimnajith</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg-mesh"></div>
+
+    <header class="navbar">
+        <div class="logo">CHAMIKA</div>
+        <nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#reflections">Reflections</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 1. Home Page (Introduction) -->
+        <section id="home" class="hero-section hidden">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="name">Chamika Nimnajith</h1>
+                    <h3 class="tagline">Aspiring DevOps Engineer | Cybersecurity Enthusiast | Lifelong Learner</h3>
+                    <div class="academic-details">
+                        <p><strong>Student Number:</strong> CS/2021/021</p>
+                        <p><strong>Degree Program:</strong> BSc (Hons) in Computer science</p>
+                        <p><strong>Faculty:</strong> Faculty of Computing & Technology</p>
+                        <p><strong>University:</strong> University of Kelaniya</p>
+                    </div>
+                    <p class="bio">
+                        I am a highly motivated third-year undergraduate student currently pursuing a Bachelor of
+                        Science (Hons) in Computer
+                        Science. With a deep and continuously growing interest in software development, cloud computing
+                        infrastructure, computer networking architectures, and
+                        advanced cybersecurity practices, I am constantly working to bridge the critical gap between
+                        complex theoretical knowledge and practical, real-world
+                        applications. My rigorous academic journey has equipped me with a diverse and comprehensive set
+                        of theoretical concepts and highly technical skills. This ranges from foundational programming
+                        paradigms in C, Python, and Java, to extensive hands-on experience configuring secure
+                        environments in advanced networking labs. I am intensely passionate about proactively leveraging
+                        modern technology to solve meaningful, large-scale problems that benefit society as a whole.
+                        Furthermore, I am deeply committed to continuous, lifelong learning and unyielding professional
+                        growth throughout every single stage of my career. I firmly believe that unwavering dedication,
+                        intellectual curiosity, and robust team collaboration are the essential keys to making a
+                        profoundly lasting and positive impact in the ever-evolving global technology sector.
+                    </p>
+                    <a href="#projects" class="btn-primary">View My Work</a>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="profile-frame">
+                        <img src="assets/WhatsApp Image 2026-05-06 at 11.11.57.jpeg" alt="Profile Picture"
+                            class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. About Me (Personal Profile) -->
+        <section id="about" class="about-section hidden">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-block">
+                    <h3><span class="icon">🎓</span> Educational Background</h3>
+                    <p>I completed my Ordinary Level examinations with high merits at Katuwana National School,
+                        Hambanthota in 2018. This was successfully followed by rigorous Advanced Level studies in the
+                        demanding Physical Science stream, completed in 2021. I am currently reading for my BSc (Hons)
+                        in Computer Science at the prestigious University of Kelaniya, enthusiastically engaging with my
+                        advanced coursework in Year 3, Semester 2.</p>
+                </div>
+                <div class="about-block">
+                    <h3><span class="icon">💡</span> Interests</h3>
+                    <p>My core professional interests revolve closely around advanced Computer Networking and
+                        cutting-edge Cybersecurity mechanisms, alongside full-stack Web and versatile Mobile Application
+                        Development. Outside of my rigorous technical pursuits, I also enjoy exploring creative outlets
+                        like Music and Videography, and engaging in strategic sports such as Cricket and Chess to
+                        maintain a healthy work-life balance.</p>
+                </div>
+                <div class="about-block">
+                    <h3><span class="icon">🚀</span> Career Goals</h3>
+                    <p>My ultimate objective is to become a highly proficient Cloud Security engineer, specifically
+                        specialising in the complex cybersecurity aspects of large-scale Cloud infrastructure. I am
+                        deeply driven to contribute to innovative technology solutions that comprehensively secure Cloud
+                        Computing environments against modern, evolving threats. Ultimately, I aim to join a leading
+                        global tech company or confidently start my own specialized venture within the fast-paced
+                        Cybersecurity field.</p>
+                </div>
+                <div class="about-block">
+                    <h3><span class="icon">⭐</span> Personal Values</h3>
+                    <p>Uncompromising integrity, a relentless drive for continuous self-improvement, and profound
+                        empathy toward my peers form my core foundation. Furthermore, a deep, unwavering commitment to
+                        the responsible and ethical use of transformative technology diligently guides my personal
+                        actions, collaborative interactions, and overarching professional decisions every single day.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Academic Projects -->
+        <section id="projects" class="projects-section hidden">
+            <div class="section-header">
+                <h2>Academic Projects</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="project-showcase">
+                <!-- Project 1 -->
+                <div class="project-row">
+                    <div class="project-image grid-4">
+                        <img src="assets/w1.png" alt="Windows Active Directory Lab">
+                        <img src="assets/w2.png" alt="Windows Active Directory Lab">
+                        <img src="assets/w3.png" alt="Windows Active Directory Lab">
+                        <img src="assets/w4.png" alt="Windows Active Directory Lab">
+                    </div>
+                    <div class="project-info">
+                        <h3>Windows Active Directory Lab</h3>
+                        <p class="course"><strong>Course/Module:</strong> Self-Learning / Cybersecurity Lab</p>
+                        <p><strong>Objective:</strong> Build and manage a Windows domain environment to understand
+                            enterprise-level identity and access management.</p>
+                        <p><strong>Tools:</strong> Windows Server 2022 · Active Directory · DNS · DHCP · Group Policy ·
+                            Windows 10.</p>
+                        <p><strong>Description:</strong> Configured a Windows Server 2022 Domain Controller with AD,
+                            DNS, and DHCP services. Managed users, groups, and devices using Organizational Units (OUs)
+                            and Group Policies. Deployed a Read-Only Domain Controller (RODC) and integrated a Windows
+                            10 client into the domain.</p>
+                        <p><strong>My Role:</strong> System administrator responsible for domain setup, configuration,
+                            and client integration.</p>
+                        <p><strong>Outcomes:</strong> Gained hands-on experience in domain management, access control,
+                            and enterprise network configuration.</p>
+                        <a href="https://www.linkedin.com/posts/chamika-nimnajith-2120b529b_windowsserver-activedirectory-grouppolicy-activity-7392969381309431808-Is91?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEhzje4BE6G_7f1RjmuKcFyqyF-gtO8SYDw"
+                            class="project-link">View on LinkedIn &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-row reverse">
+                    <div class="project-image grid-4">
+                        <img src="assets/a1.jpeg" alt="Cloud Computing Architecture">
+                        <img src="assets/a2.jpeg" alt="Cloud Computing Architecture">
+                        <img src="assets/a3.jpeg" alt="Cloud Computing Architecture">
+                        <img src="assets/a4.jpeg" alt="Cloud Computing Architecture">
+                    </div>
+                    <div class="project-info">
+                        <h3>AWS VPC Configuration</h3>
+                        <p class="course"><strong>Course/Module:</strong> Cloud Computing / Self-Learning</p>
+                        <p><strong>Objective:</strong> Design a secure and scalable cloud network architecture using AWS
+                            VPC services.</p>
+                        <p><strong>Tools:</strong> AWS VPC · EC2 · Application Load Balancer · Auto Scaling · NAT
+                            Gateway · Bastion Host.</p>
+                        <p><strong>Description:</strong> Designed and deployed a Virtual Private Cloud with public and
+                            private subnets. Configured an Application Load Balancer and Auto Scaling Group for high
+                            availability. Implemented NAT Gateway and Bastion host for secure access and controlled
+                            internet connectivity.</p>
+                        <p><strong>My Role:</strong> Cloud engineer responsible for architecture design, deployment, and
+                            security configuration.</p>
+                        <p><strong>Outcomes:</strong> Improved understanding of cloud networking, scalability, and
+                            secure infrastructure design.</p>
+                        <a href="#" class="project-link">View Architecture &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-row">
+                    <div class="project-image grid-4">
+                        <img src="assets/z1.jpeg" alt="Wazuh Cybersecurity Lab">
+                        <img src="assets/z2.jpeg" alt="Wazuh Cybersecurity Lab">
+                        <img src="assets/z3.jpeg" alt="Wazuh Cybersecurity Lab">
+                        <img src="assets/z4.jpeg" alt="Wazuh Cybersecurity Lab">
+                    </div>
+                    <div class="project-info">
+                        <h3>Wazuh Home Lab</h3>
+                        <p class="course"><strong>Course/Module:</strong> Cybersecurity Lab / Self-Learning</p>
+                        <p><strong>Objective:</strong> Build a security monitoring and threat detection environment
+                            using open-source tools.</p>
+                        <p><strong>Tools:</strong> Wazuh · Ubuntu · Windows · Suricata · AuditD.</p>
+                        <p><strong>Description:</strong> Built a security monitoring lab using Wazuh with Ubuntu and
+                            Windows agents. Implemented File Integrity Monitoring (FIM) and vulnerability detection.
+                            Integrated Suricata for network intrusion detection and AuditD for system monitoring.</p>
+                        <p><strong>My Role:</strong> Security analyst responsible for setup, integration, and rule
+                            configuration.</p>
+                        <p><strong>Outcomes:</strong> Gained practical experience in threat detection, log analysis, and
+                            security monitoring.</p>
+                        <a href="https://www.linkedin.com/posts/chamika-nimnajith-2120b529b_cybersecurity-wazuh-siem-activity-7445182769107955712-KSZI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEhzje4BE6G_7f1RjmuKcFyqyF-gtO8SYDw"
+                            class="project-link">View Evidence &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-row reverse">
+                    <div class="project-image">
+                        <img src="assets/j1.jpeg" alt="Jenkins CI/CD Pipeline">
+                    </div>
+                    <div class="project-info">
+                        <h3>Jenkins CI/CD Pipeline</h3>
+                        <p class="course"><strong>Course/Module:</strong> DevOps / Self-Learning</p>
+                        <p><strong>Objective:</strong> Automate application deployment using CI/CD practices and
+                            infrastructure as code.</p>
+                        <p><strong>Tools:</strong> Jenkins · Docker · AWS EC2 · Terraform · Linux.</p>
+                        <p><strong>Description:</strong> Built a CI/CD pipeline using Jenkins to automate deployment of
+                            a Dockerized web application. Provisioned infrastructure on AWS EC2 using Terraform and
+                            automated server setup and container deployment.</p>
+                        <p><strong>My Role:</strong> DevOps engineer responsible for pipeline creation, automation, and
+                            deployment.</p>
+                        <p><strong>Outcomes:</strong> Developed hands-on experience in CI/CD workflows, automation, and
+                            cloud-based deployments.</p>
+                        <a href="https://www.linkedin.com/posts/chamika-nimnajith-2120b529b_excited-to-share-my-latest-devops-project-activity-7440435108207263744-QtV7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEhzje4BE6G_7f1RjmuKcFyqyF-gtO8SYDw"
+                            class="project-link">View Evidence &rarr;</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 4. Technical Skills -->
+        <section id="skills" class="skills-section hidden">
+            <div class="section-header">
+                <h2>Technical Skills</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Security Tools</h3>
+                    <div class="skill-tags">
+                        <span>Nmap</span>
+                        <span>Wireshark</span>
+                        <span>Nessus</span>
+                        <span>Splunk</span>
+                        <span>Metasploit</span>
+                        <span>Burp Suite</span>
+                        <span>Snort</span>
+                        <span>SIEM</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Programming & Scripting</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>Bash</span>
+                        <span>SQL</span>
+                        <span>Java</span>
+                        <span>C++</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Operating Systems & Networking</h3>
+                    <div class="skill-tags">
+                        <span>Linux</span>
+                        <span>Windows Server</span>
+                        <span>TCP/IP</span>
+                        <span>DNS</span>
+                        <span>Firewalls</span>
+                        <span>VPNs</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Cloud & DevOps</h3>
+                    <div class="skill-tags">
+                        <span>AWS (VPC, EC2, IAM)</span>
+                        <span>Docker</span>
+                        <span>Ansible</span>
+                        <span>Jenkins</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Field Visits & Industry Experience -->
+        <section id="experience" class="experience-section hidden">
+            <div class="section-header">
+                <h2>Field Visits & Industry Experience</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content vertical">
+                        <div class="timeline-text">
+                            <h3>FCT – Data Centre Visit</h3>
+                            <p class="date">15 March 2023 | FCT, University of Kelaniya</p>
+                            <p><strong>Purpose:</strong> To understand the infrastructure, operations, and security
+                                practices of a leading telecommunications data centre.</p>
+                            <p><strong>Activities:</strong> Tour of server rooms, firewall configuration demonstrations,
+                                presentation by network engineers on load balancing and redundancy systems.</p>
+                            <p><strong>Key Observations:</strong> Observed enterprise-level Cisco networking equipment,
+                                UPS backup systems, and tiered access control mechanisms.</p>
+                            <p><strong>Skills Gained:</strong> Practical understanding of data centre operations,
+                                network architecture, and physical security protocols.</p>
+                            <p><strong>Reflection:</strong> This visit made networking concepts from my coursework
+                                tangible. Seeing actual server racks and live monitoring dashboards reinforced my
+                                interest in pursuing a career in network infrastructure and cloud computing.</p>
+                        </div>
+                        <div class="timeline-gallery">
+                            <img src="assets/d1.jpeg" alt="FCT Data Centre Visit">
+                            <img src="assets/d3.jpeg" alt="FCT Data Centre Visit">
+                            <img src="assets/d4.jpeg" alt="FCT Data Centre Visit">
+                            <img src="assets/d5.jpeg" alt="FCT Data Centre Visit">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content vertical">
+                            <div class="timeline-text">
+                                <h3>Sri Lanka Rupavahini Corporation – Satellite Communication Field Visit</h3>
+                                <p class="date">7 May 2026 | 1 Day | Colombo, Sri Lanka</p>
+                                <p><strong>Purpose:</strong> To gain practical knowledge of satellite communication
+                                    systems, broadcasting technologies, and transmission infrastructure used in national
+                                    television broadcasting.</p>
+                                <p><strong>Activities:</strong> Guided tour of the broadcasting and transmission
+                                    facilities, observation of satellite uplink and downlink operations, introduction to
+                                    studio control systems, and discussions with technical engineers about signal
+                                    transmission and media communication technologies.</p>
+                                <p><strong>Key Observations:</strong> Observed satellite communication equipment,
+                                    broadcast control rooms, antenna systems, video transmission infrastructure, and
+                                    real-time media broadcasting operations. Learned how television signals are
+                                    transmitted from studios to satellites and distributed nationwide.</p>
+                                <p><strong>Skills Gained:</strong> Improved understanding of satellite communication
+                                    concepts, broadcasting networks, signal transmission processes, and media technology
+                                    infrastructure used in large-scale television communication systems.</p>
+                                <p><strong>Reflection:</strong> This field visit helped connect theoretical concepts of
+                                    satellite communication with real-world broadcasting applications. Seeing the
+                                    operational workflow of a national television network increased my interest in
+                                    communication technologies, networking, and media infrastructure systems.</p>
+                            </div>
+                            <div class="timeline-gallery">
+                                <img src="assets/r1.jpeg" alt="Satellite Communication Field Visit">
+                                <img src="assets/r2.jpeg" alt="Satellite Communication Field Visit">
+                                <img src="assets/r3.jpeg" alt="Satellite Communication Field Visit">
+                                <img src="assets/r4.jpeg" alt="Satellite Communication Field Visit">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- 6. Club Activities & Leadership Experience -->
+        <section id="activities" class="activities-section hidden">
+            <div class="section-header">
+                <h2>Clubs & Leadership</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="activities-layout">
+                <div class="soft-skills-panel">
+                    <h3>Soft Skills Developed</h3>
+                    <div class="soft-skills-content">
+                        <ul>
+                            <li><strong>Communication:</strong> Presenting technical concepts to non-technical
+                                audiences.
+                            </li>
+                            <li><strong>Teamwork:</strong> Collaborating on community projects and managing events.</li>
+                            <li><strong>Problem-solving:</strong> Addressing logistical and planning challenges.</li>
+                            <li><strong>Time Management:</strong> Balancing academic responsibilities with volunteering.
+                            </li>
+                            <li><strong>Leadership:</strong> Organizing teams and spearheading initiatives.</li>
+                            <li><strong>Adaptability:</strong> Adjusting to changing event requirements and project
+                                scopes.
+                            </li>
+                        </ul>
+                        <div class="skills-gallery">
+                            <img src="assets/s1.jpeg" alt="Soft Skill Activity">
+                            <img src="assets/s2.jpeg" alt="Soft Skill Activity">
+                            <img src="assets/s3.jpg" alt="Soft Skill Activity">
+                            <img src="assets/s4.jpg" alt="Soft Skill Activity">
+                            <img src="assets/s5.jpg" alt="Soft Skill Activity">
+                            <img src="assets/s6.jpg" alt="Soft Skill Activity">
+                            <img src="assets/s7.jpeg" alt="Soft Skill Activity">
+                            <img src="assets/s8.jpeg" alt="Soft Skill Activity">
+                            <img src="assets/s9.jpeg" alt="Soft Skill Activity">
+                            <img src="assets/s10.jpeg" alt="Soft Skill Activity">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 7, 8, 9. Research, Certifications & Achievements -->
+        <section id="academics" class="academics-section hidden">
+            <div class="section-header">
+                <h2>Academic Engagement & Achievements</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="grid-layout-3">
+                <!-- Research -->
+                <div class="grid-box">
+                    <div class="box-icon">🔬</div>
+                    <h3>Research & Engagement</h3>
+                    <div class="box-content">
+                        <h4>Undergraduate Research Symposium 2023</h4>
+                        <p><strong>Type:</strong> Symposium | Univ of Kelaniya</p>
+                        <p><strong>Role:</strong> Presenter</p>
+                        <p><strong>Learnings:</strong> Presented a poster on "IoT-Based Soil Moisture Monitoring for
+                            Smart Agriculture." Received constructive feedback and enhanced skills in scientific
+                            writing.</p>
+
+                        <h4 style="margin-top: 1rem;">ML Fundamentals Workshop – ICATC 2023</h4>
+                        <p><strong>Role:</strong> Participant</p>
+                        <p><strong>Learnings:</strong> Hands-on experience with Python for building basic classification
+                            models and data pre-processing.</p>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div class="grid-box">
+                    <div class="box-icon">📜</div>
+                    <h3>Certifications & Courses</h3>
+                    <div class="box-content">
+                        <ul>
+                            <li><strong><a
+                                        href="https://udemy-certificate.s3.amazonaws.com/image/UC-99a7461c-1e5d-4e02-93b5-5a1391e1a9b9.jpg"
+                                        target="_blank" class="cert-link">Python for Data Science</a></strong> - Udemy
+                                (Sep 2025)</li>
+                            <li><strong><a
+                                        href="https://udemy-certificate.s3.amazonaws.com/image/UC-ec691494-0939-4609-9fed-2a2b2a3380c2.jpg"
+                                        target="_blank" class="cert-link">Linux Command Line: From Zero to
+                                        Hero</a></strong> - Udemy (Sep 2025)</li>
+                            <!-- <li><strong><a href="#" target="_blank" class="cert-link">Git & GitHub for Beginners</a></strong> - freeCodeCamp</li> -->
+                            <li><strong><a
+                                        href="https://www.freecodecamp.org/certification/fcce5961d87-3161-442f-b739-3a9ef000622d/responsive-web-design"
+                                        target="_blank" class="cert-link">Responsive Web Design</a></strong>
+                                - freeCodeCamp</li>
+                            <!-- <li><strong><a href="#" target="_blank" class="cert-link">Introduction to Cybersecurity</a></strong> - The Odin Project</li>
+                            <li><strong><a href="#" target="_blank" class="cert-link">MATLAB Onramp</a></strong> - MathWorks</li> -->
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Extracurricular Activities -->
+                <div class="grid-box">
+                    <div class="box-icon">🌟</div>
+                    <h3>Extracurricular Activities</h3>
+                    <div class="box-content">
+                        <ul>
+                            <li style="margin-bottom: 0.8rem;"><strong>Design Team Member</strong> – Code Quest 2024
+                                (FCT, UoK). Designed 10+ flyers for the event.</li>
+                            <li style="margin-bottom: 0.8rem;"><strong>Logistics Team Member</strong> – Code Quest 2024
+                                (FCT, UoK). Handled event logistics, vendor coordination, material setup, and team
+                                routing.</li>
+                            <li style="margin-bottom: 0.8rem;"><strong>Digital Media Team Member</strong> – Computer
+                                Science Students’ Association, UoK.</li>
+                            <li style="margin-bottom: 0.8rem;"><strong>Fundraising Volunteer</strong> – Algoridma 2025
+                                (FCT, UoK). Raised funds by selling 100+ bookmarks at BMICH Book Fair.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. Reflection Section -->
+        <section id="reflections" class="reflections-section hidden">
+            <div class="section-header">
+                <h2>Reflections</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="reflection-article">
+                <h3>Reflection 1: Group Project Experience</h3>
+                <p>During my intensive second year, I actively participated in a challenging group project for the Web
+                    Technologies module where we successfully
+                    developed a comprehensive full-stack e-commerce prototype from scratch. The dedicated team consisted
+                    of four members with widely varying levels
+                    of programming experience. Throughout this journey, I learned exactly how to efficiently divide
+                    responsibilities based on individual strengths and how to seamlessly
+                    merge code using Git without introducing destructive conflicts. Effective, transparent communication
+                    within the team quickly proved to be just as
+                    crucial and important as our underlying technical skills.</p>
+                <p>Coordinating suitable meeting times was significantly difficult as team members had drastically
+                    different, conflicting lab schedules. Furthermore, integrating
+                    individually written software modules also caused unexpected compatibility issues in the early
+                    stages of development. To overcome this, we promptly adopted a
+                    shared Trello board for granular task tracking and held brief, highly focused weekly stand-up
+                    meetings online. I also took the initiative to set up
+                    a robust Git branching strategy to effectively streamline our continuous code integration pipeline.
+                    Moving forward, I would greatly like to improve my project
+                    leadership skills and learn extensively more about modern Agile methodologies to manage complex,
+                    team-based software engineering projects
+                    much more efficiently and effectively in the future.</p>
+            </div>
+
+            <div class="reflection-article">
+                <h3>Reflection 2: Laboratory Sessions & Practical Work</h3>
+                <p>Extensive lab sessions throughout my foundational first and second years, particularly in the highly
+                    technical domains of Sensor Technology and Embedded
+                    Systems, were genuinely transformative in successfully connecting abstract theory with tangible,
+                    real-world practice. I diligently developed strong hands-on competency
+                    with essential diagnostic equipment like digital oscilloscopes, multimeters, and various advanced
+                    microcontroller boards. Actively troubleshooting faulty electronic circuits during
+                    these intensive sessions fundamentally sharpened my critical, analytical thinking and
+                    problem-solving abilities considerably.</p>
+                <p>Unexpected hardware component failures during several critical, time-sensitive experiments frequently
+                    led to necessary repeated trials and significant time pressure.
+                    Initially, this steep learning curve was quite frustrating and momentarily affected my personal
+                    confidence. To counter this, I immediately started pre-reading complex lab manuals
+                    thoroughly beforehand and meticulously double-checking all intricate circuit connections before
+                    initially powering up the systems. I also firmly built a proactive habit of
+                    always saving preliminary simulation results in Proteus before ever moving forward to actual
+                    physical hardware assembly. Looking ahead, I enthusiastically aim to build a fully equipped personal
+                    electronics project bench at home to deliberately practise my skills regularly, far outside the
+                    constraints of traditionally timetabled university lab sessions.</p>
+            </div>
+
+            <div class="reflection-article">
+                <h3>Reflection 3: Communication & Presentation Skills – SPI Module</h3>
+                <p>The Social and Professional Issues module challenged me to present technical content to a
+                    non-technical audience and
+                    participate in impromptu speaking exercises that tested my ability to think on the spot. I developed
+                    clarity in expressing complex technical ideas through structured, audience-appropriate language. I
+                    also learned to use visual aids more effectively to support my arguments.</p>
+                <p>Nervousness during impromptu tasks often affected my fluency and logical flow. Speaking in front of a
+                    large group was particularly challenging in the early weeks. I practiced speaking in front of
+                    mirrors and small peer groups to build confidence. The constructive feedback from my friends
+                    helped me identify specific areas to improve, such as pacing and eye contact. I intend to
+                    join a public speaking club and pursue additional workshops on technical communication to further
+                    refine my presentation delivery and academic writing skills.</p>
+            </div>
+        </section>
+
+        <!-- 11. Career Goals & Future Development -->
+        <section id="goals" class="goals-section hidden">
+            <div class="section-header">
+                <h2>Future Outlook</h2>
+                <div class="line"></div>
+            </div>
+            <div class="goals-content">
+                <div class="goal-item">
+                    <h3>Short-term Goals</h3>
+                    <p>Complete BSc (Hons) in Compuer Science with a First Class or Upper Second Class degree. Obtain
+                        industry-recognised certifications in cloud computing (AWS / Azure) and cybersecurity. Secure a
+                        meaningful internship at a leading technology company in Sri Lanka or overseas. Contribute to at
+                        least one open-source project on GitHub.</p>
+                </div>
+                <div class="goal-item">
+                    <h3>Long-term Goals</h3>
+                    <p>Become a cloud security engineer specialising in IoT and cloud-integrated systems within five
+                        years. Pursue a postgraduate degree (MSc) in Computer Science or Embedded Systems. Establish a
+                        technology startup focused on smart cybersecurity solutions for Sri Lankan Buisnesses sector.
+                        Mentor the next generation of ICT undergraduates.</p>
+                </div>
+                <div class="goal-item">
+                    <h3>Skills to Develop</h3>
+                    <p>Cloud Platforms (AWS, Azure, Google Cloud). Machine Learning & Data Science (TensorFlow, Pandas).
+                        Mobile Development (Flutter / React Native). Advanced Networking (CCNA certification path).
+                        Technical Writing & Documentation. Project Management (Agile / Scrum methodology).</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 12. Contact Information -->
+    <footer id="contact" class="footer">
+        <div class="footer-content">
+            <h2>Let's Connect</h2>
+            <p>Feel free to reach out for academic collaborations, project discussions, or professional opportunities.
+            </p>
+            <div class="contact-links">
+                <a href="mailto:alex.fernando@uni.ac.lk" class="contact-btn">✉️ chamikanimnajith@gmail.com</a>
+                <a href="https://www.linkedin.com/in/chamika-nimnajith-2120b529b/" target="_blank"
+                    class="contact-btn">🔗 LinkedIn</a>
+                <a href="https://github.com/chamikaNimnajith?tab=repositories" target="_blank" class="contact-btn">💻
+                    GitHub</a>
+                <a href="https://medium.com/@chamikanimnajith" target="_blank" class="contact-btn">🌐 Medium</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Chamika Nimnajith. All rights reserved. | CA 02 · DELT 33212</p>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
